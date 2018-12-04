@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+# 德军密码
 # 每个英文字母对应一个七位二进制数（加密传统，也可按长度推测）
 # 异或加密（Enigma中一定映射为更原来不一样的字母的思想）
 def decode(str_bin,str_key):
